@@ -21,6 +21,6 @@ public class Decimal extends Numero{
 
     @Override
     public void imprimirNumero() {
-        this.getValor();
+        System.out.println(this.getValor());
     }
 }
