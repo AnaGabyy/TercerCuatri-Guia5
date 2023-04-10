@@ -2,5 +2,5 @@ package cuartoEjercicio;
 
 public abstract class Numero {
 
-    public abstract String imprimirNumero();
+    public abstract void imprimirNumero();
 }
