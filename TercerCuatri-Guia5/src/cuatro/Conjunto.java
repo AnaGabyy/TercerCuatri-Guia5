@@ -1,4 +1,4 @@
-package cuartoEjercicio;
+package cuatro;
 
 import java.util.ArrayList;
 import java.util.HashSet;

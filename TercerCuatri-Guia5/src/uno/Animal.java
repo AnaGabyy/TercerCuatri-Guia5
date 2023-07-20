@@ -1,8 +1,11 @@
-package primerEjercicio;
+package uno;
 
 public abstract class Animal {
 
     private String sonido;
+
+    public Animal(){
+    }
 
     public Animal(String sonido) {
         this.sonido = sonido;
@@ -16,7 +19,9 @@ public abstract class Animal {
         this.sonido = sonido;
     }
 
+    //Forma 1
     public abstract String hacerSonido();
-
+    //Forma 2
+    public abstract void hacerSonidoDiferente();
 
 }

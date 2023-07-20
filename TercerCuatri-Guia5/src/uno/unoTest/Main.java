@@ -1,11 +1,12 @@
-package primerEjercicioTest;
+package uno.unoTest;
 
-import primerEjercicio.Animal;
-import primerEjercicio.Gato;
-import primerEjercicio.Perro;
-import primerEjercicio.Veterinaria;
+import uno.Animal;
+import uno.Gato;
+import uno.Perro;
+import uno.Veterinaria;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 
 public class Main {
@@ -33,8 +34,13 @@ public class Main {
 
         veterinaria.mostrarSonidosAnimales();
 
+        //Ejemplo de el profe con la lista como una clase
+
+        LinkedList<Animal> listaAnimal = new LinkedList<>();
+        ArrayList<Animal> listaAnimalDos = new ArrayList<>();
+
+        Veterinaria vet = new Veterinaria(listaAnimalDos, listaAnimal);
 
 
     }
-
 }

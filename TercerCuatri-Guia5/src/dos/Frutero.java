@@ -1,4 +1,4 @@
-package segundoEjercicio;
+package dos;
 
 import java.util.List;
 

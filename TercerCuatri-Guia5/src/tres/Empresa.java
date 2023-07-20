@@ -1,4 +1,4 @@
-package tercerEjercicio;
+package tres;
 
 import java.util.List;
 

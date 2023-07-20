@@ -1,4 +1,4 @@
-package segundoEjercicio;
+package dos;
 
 public abstract class Fruta {
 

@@ -1,4 +1,4 @@
-package primerEjercicio;
+package uno;
 
 public class Perro extends Animal{
 
@@ -13,5 +13,10 @@ public class Perro extends Animal{
     @Override
     public String hacerSonido() {
         return this.getSonido();
+    }
+
+    @Override
+    public void hacerSonidoDiferente() {
+        System.out.println(this.getSonido());
     }
 }

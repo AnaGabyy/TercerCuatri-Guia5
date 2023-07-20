@@ -1,4 +1,4 @@
-package tercerEjercicio;
+package tres;
 
 public abstract class Empleado {
 

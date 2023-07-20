@@ -1,4 +1,4 @@
-package cuartoEjercicio;
+package cuatro;
 
 public abstract class Numero {
 

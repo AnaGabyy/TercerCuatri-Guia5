@@ -1,9 +1,9 @@
-package segundoEjercicioTest;
+package dos.dosTest;
 
-import segundoEjercicio.Fruta;
-import segundoEjercicio.Frutero;
-import segundoEjercicio.Manzana;
-import segundoEjercicio.Naranja;
+import dos.Fruta;
+import dos.Frutero;
+import dos.Manzana;
+import dos.Naranja;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -27,7 +27,5 @@ public class Main {
         Frutero frutero = new Frutero(listaFrutas);
 
         frutero.mostrarColorFrutas();
-
-
     }
 }

@@ -1,4 +1,4 @@
-package cuartoEjercicio;
+package cuatro;
 
 public class Entero extends Numero{
 

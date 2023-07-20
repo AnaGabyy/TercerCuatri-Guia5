@@ -1,9 +1,9 @@
-package tercerEjercicioTest;
+package tres.tresTest;
 
-import tercerEjercicio.Empleado;
-import tercerEjercicio.Empresa;
-import tercerEjercicio.Gerente;
-import tercerEjercicio.Vendedor;
+import tres.Empleado;
+import tres.Empresa;
+import tres.Gerente;
+import tres.Vendedor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,9 +30,6 @@ public class Main {
         Empresa empresa = new Empresa(listaEmpleados);
 
         empresa.sumaTotalSalarios();
-
-
-
     }
 
 }
